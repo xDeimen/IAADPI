@@ -2,8 +2,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import numpy as np
 from sklearn.impute import KNNImputer
+from sklearn.feature_selection import SelectKBest, f_classif, chi2
+from sklearn.model_selection import train_test_split
 
 
 def read_csv_to_dataframe(file_path):
@@ -65,17 +66,40 @@ def impute(df):
     return df_imputed
 
 
+
+
+def Select_K_Best_iris(k_values_iris, df):
+    X_iris = df.drop('class', axis=1)
+    y_iris = df['class']
+    for k in k_values_iris:
+        selector = SelectKBest(score_func=f_classif, k=k)
+        X_selected_iris = selector.fit_transform(X_iris, y_iris)
+        print(f"Iris Dataset: Selected {k} features: {X_selected_iris.shape[1]} features selected")
+
+
+def Select_K_Best_diabetes(k_values_pima, df):
+    X_pima = df.drop('Outcome', axis=1)
+    y_pima = df['Outcome']
+
+    for k in k_values_pima:
+        selector = SelectKBest(score_func=chi2, k=k)
+        X_selected_pima = selector.fit_transform(X_pima, y_pima)
+        print(f"Pima Dataset: Selected {k} features: {X_selected_pima.shape[1]} features selected")
+
+
 if __name__ == "__main__":
     df_diabetes = read_csv_to_dataframe(
-        file_path="/home/istvan/Masters/Year1/Sem1/IAADPI/W2/data/diabetes.csv"
+        file_path=r"W2\data\diabetes.csv"
     )
     preprocess_diabetes = preprocess_diabetes(df_diabetes)
     imputed_diabetes = impute(preprocess_diabetes)
-    save_plots(imputed_diabetes, "diabetes")
+    #save_plots(imputed_diabetes, "diabetes")
+    Select_K_Best_diabetes([1, 3], imputed_diabetes)
 
     df_iris = read_csv_to_dataframe(
-        file_path="/home/istvan/Masters/Year1/Sem1/IAADPI/W2/data/iris.csv"
+        file_path=r"W2\data\iris.csv"
     )
     preprocess_iris = preprocess_iris(df_iris)
     imputed_iris = impute(preprocess_iris)
-    save_plots(imputed_iris, "iris")
+    #save_plots(imputed_iris, "iris")
+    Select_K_Best_iris([1,2], imputed_iris)
