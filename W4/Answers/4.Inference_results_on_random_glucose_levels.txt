@@ -1,0 +1,21 @@
+Accuracy of the model: 75.32%
+Predicted Outcome for Glucose=150: 1 (1=Diabetes, 0=No Diabetes)
+Probability of Diabetes: 57.44%
+Predicted Outcome for Glucose=230: 1 (1=Diabetes, 0=No Diabetes)
+Probability of Diabetes: 96.27%
+Predicted Outcome for Glucose=2: 0 (1=Diabetes, 0=No Diabetes)
+Probability of Diabetes: 0.57%
+Predicted Outcome for Glucose=46: 0 (1=Diabetes, 0=No Diabetes)
+Probability of Diabetes: 2.83%
+Predicted Outcome for Glucose=98: 0 (1=Diabetes, 0=No Diabetes)
+Probability of Diabetes: 16.55%
+Predicted Outcome for Glucose=87: 0 (1=Diabetes, 0=No Diabetes)
+Probability of Diabetes: 11.67%
+Predicted Outcome for Glucose=420: 1 (1=Diabetes, 0=No Diabetes)
+Probability of Diabetes: 100.00%
+Predicted Outcome for Glucose=59: 0 (1=Diabetes, 0=No Diabetes)
+Probability of Diabetes: 4.49%
+Predicted Outcome for Glucose=12: 0 (1=Diabetes, 0=No Diabetes)
+Probability of Diabetes: 0.82%
+Predicted Outcome for Glucose=800: 1 (1=Diabetes, 0=No Diabetes)
+Probability of Diabetes: 100.00%

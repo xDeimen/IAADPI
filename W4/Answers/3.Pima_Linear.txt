@@ -1,0 +1,43 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     diabetes
+Instances:    768
+Attributes:   9
+              Pregnancies
+              Glucose
+              BloodPressure
+              SkinThickness
+              Insulin
+              BMI
+              DiabetesPedigreeFunction
+              Age
+              Outcome
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+Outcome =
+
+      0.0209 * Pregnancies +
+      0.0057 * Glucose +
+     -0.0024 * BloodPressure +
+      0.0131 * BMI +
+      0.1403 * DiabetesPedigreeFunction +
+      0.0028 * Age +
+     -0.8363
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.5322
+Mean absolute error                      0.3366
+Root mean squared error                  0.4036
+Relative absolute error                 74.0119 %
+Root relative squared error             84.6013 %
+Total Number of Instances              768     

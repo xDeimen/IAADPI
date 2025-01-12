@@ -1,0 +1,68 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     iris
+Instances:    150
+Attributes:   5
+              sepallength
+              sepalwidth
+              petallength
+              petalwidth
+              class
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                         Class
+Variable           Iris-setosa  Iris-versicolor
+===============================================
+sepallength            21.8065           2.4652
+sepalwidth              4.5648           6.6809
+petallength           -26.3083          -9.4293
+petalwidth             -43.887         -18.2859
+Intercept               8.1743           42.637
+
+
+Odds Ratios...
+                         Class
+Variable           Iris-setosa  Iris-versicolor
+===============================================
+sepallength    2954196659.8836          11.7653
+sepalwidth             96.0426         797.0304
+petallength                  0           0.0001
+petalwidth                   0                0
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          29               96.6667 %
+Incorrectly Classified Instances         1                3.3333 %
+Kappa statistic                          0.9497
+Mean absolute error                      0.0222
+Root mean squared error                  0.1491
+Relative absolute error                  4.9959 %
+Root relative squared error             31.594  %
+Total Number of Instances               30     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Iris-setosa
+                 1.000    0.050    0.909      1.000    0.952      0.929    0.975     0.909     Iris-versicolor
+                 0.889    0.000    1.000      0.889    0.941      0.921    0.995     0.989     Iris-virginica
+Weighted Avg.    0.967    0.017    0.970      0.967    0.966      0.953    0.990     0.966     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 11  0  0 |  a = Iris-setosa
+  0 10  0 |  b = Iris-versicolor
+  0  1  8 |  c = Iris-virginica

@@ -1,0 +1,35 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     iris-weka.filters.unsupervised.attribute.Remove-R5
+Instances:    150
+Attributes:   4
+              sepallength
+              sepalwidth
+              petallength
+              petalwidth
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+petalwidth =
+
+     -0.2103 * sepallength +
+      0.2288 * sepalwidth +
+      0.5261 * petallength +
+     -0.2487
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.9661
+Mean absolute error                      0.1502
+Root mean squared error                  0.1964
+Relative absolute error                 22.6058 %
+Root relative squared error             25.6171 %
+Total Number of Instances              150     
