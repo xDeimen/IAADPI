@@ -1,0 +1,13 @@
+Epoch [1/10], Loss: 1.4561
+Epoch [2/10], Loss: 1.1944
+Epoch [3/10], Loss: 1.0776
+Epoch [4/10], Loss: 0.9886
+Epoch [5/10], Loss: 0.8993
+Epoch [6/10], Loss: 0.7317
+Epoch [7/10], Loss: 0.6313
+Epoch [8/10], Loss: 0.6664
+Epoch [9/10], Loss: 0.7523
+Epoch [10/10], Loss: 0.5843
+Train Accuracy: 82.47%
+Validation Accuracy: 80.11%
+Test Accuracy: 79.57%
