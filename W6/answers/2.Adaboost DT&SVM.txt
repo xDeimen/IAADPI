@@ -1,0 +1,4 @@
+AdaBoost with Decision Tree on Iris: 1.0000
+AdaBoost with SVM on Iris: 0.9556
+AdaBoost with Decision Tree on Pima: 0.7446
+AdaBoost with SVM on Pima: 0.6494

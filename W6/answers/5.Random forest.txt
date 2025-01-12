@@ -1,0 +1,2 @@
+Random Forest Classifier Accuracy: 0.99
+Random Forest Regressor Mean Squared Error: 0.10

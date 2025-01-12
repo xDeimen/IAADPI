@@ -1,0 +1,5 @@
+Accuracy of SVC: 0.7489
+Accuracy of k-NN: 0.6926
+Accuracy of Decision Tree: 0.7013
+Accuracy of MLP: 0.7229
+Accuracy of Stacking Classifier: 0.7403

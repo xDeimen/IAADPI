@@ -1,0 +1,17 @@
+-------------------- Iris dataset --------------------
+SVC accuracy: 1.0000
+k-NN accuracy: 1.0000
+Decision Tree accuracy: 1.0000
+MLP accuracy: 1.0000
+soft_voting accuracy: 1.0000
+hard_voting accuracy: 1.0000
+
+I thought this was odd so i tested on a randomly generated dataset:
+
+-------------------- Random dataset --------------------
+SVC accuracy: 0.9300
+k-NN accuracy: 0.9033
+Decision Tree accuracy: 0.7967
+MLP accuracy: 0.9600
+soft_voting accuracy: 0.9400
+hard_voting accuracy: 0.9400
