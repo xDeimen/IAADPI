@@ -1,0 +1,42 @@
+--- k-NN Regressor ---
+k-NN Diabetes - R2 Score: 0.3213
+
+--- k-NN Regressor ---
+k-NN Iris - R2 Score: 0.9325
+
+--- k-NN Regressor ---
+k-NN Cars - R2 Score: 0.7887
+
+--- SVM Regressor ---
+SVM Diabetes - R2 Score: 0.4989
+
+--- SVM Regressor ---
+SVM Iris - R2 Score: 0.9024
+
+--- SVM Regressor ---
+SVM Cars - R2 Score: 0.1232
+
+--- MLP Regressor ---
+--- MLP Regressor ---
+C:\Masters\Y1\Sem1\IAADPI\venv\Lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:690: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+MLP Diabetes - R2 Score: 0.4257
+
+--- MLP Regressor ---
+C:\Masters\Y1\Sem1\IAADPI\venv\Lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:690: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+MLP Iris - R2 Score: 0.8700
+
+--- MLP Regressor ---
+C:\Masters\Y1\Sem1\IAADPI\venv\Lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:690: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+MLP Cars - R2 Score: 0.8345
+
+--- Decision Tree Regressor ---
+Decision Tree Diabetes - R2 Score: 0.2927
+
+--- Decision Tree Regressor ---
+Decision Tree Iris - R2 Score: 0.8467
+
+--- Decision Tree Regressor ---
+Decision Tree Cars - R2 Score: 0.8955

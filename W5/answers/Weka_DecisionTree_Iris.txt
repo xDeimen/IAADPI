@@ -1,0 +1,67 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.DecisionStump 
+Relation:     iris
+Instances:    150
+Attributes:   5
+              sepallength
+              sepalwidth
+              petallength
+              petalwidth
+              class
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Decision Stump
+
+Classifications
+
+petallength <= 2.45 : Iris-setosa
+petallength > 2.45 : Iris-versicolor
+petallength is missing : Iris-setosa
+
+Class distributions
+
+petallength <= 2.45
+Iris-setosa	Iris-versicolor	Iris-virginica	
+1.0	0.0	0.0	
+petallength > 2.45
+Iris-setosa	Iris-versicolor	Iris-virginica	
+0.0	0.5	0.5	
+petallength is missing
+Iris-setosa	Iris-versicolor	Iris-virginica	
+0.3333333333333333	0.3333333333333333	0.3333333333333333	
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          20               66.6667 %
+Incorrectly Classified Instances        10               33.3333 %
+Kappa statistic                          0.5066
+Mean absolute error                      0.2112
+Root mean squared error                  0.3251
+Relative absolute error                 47.4923 %
+Root relative squared error             68.9074 %
+Total Number of Instances               30     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Iris-setosa
+                 0.000    0.000    ?          0.000    ?          ?        0.775     0.526     Iris-versicolor
+                 1.000    0.476    0.474      1.000    0.643      0.498    0.762     0.474     Iris-virginica
+Weighted Avg.    0.667    0.143    ?          0.667    ?          ?        0.854     0.684     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 11  0  0 |  a = Iris-setosa
+  0  0 10 |  b = Iris-versicolor
+  0  0  9 |  c = Iris-virginica

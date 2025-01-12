@@ -1,0 +1,42 @@
+K-Nearest Neighbors (k=3) on Iris Dataset:
+K-Nearest Neighbors (k=3) - Mean Accuracy: 0.953, Std Dev: 0.034
+
+K-Nearest Neighbors (k=3) on Pima Indians Diabetes Dataset:
+K-Nearest Neighbors (k=3) - Mean Accuracy: 0.742, Std Dev: 0.027
+
+Multilayer Perceptron (hidden_layer_sizes=(10,)) on Iris Dataset:
+C:\Masters\Y1\Sem1\IAADPI\venv\Lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:690: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+C:\Masters\Y1\Sem1\IAADPI\venv\Lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:690: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+Multilayer Perceptron (hidden_layer_sizes=(10,)) - Mean Accuracy: 0.960, Std Dev: 0.039
+
+Multilayer Perceptron (hidden_layer_sizes=(10,)) on Pima Indians Diabetes Dataset:
+Multilayer Perceptron (hidden_layer_sizes=(10,)) - Mean Accuracy: 0.770, Std Dev: 0.027
+
+Support Vector Machine (linear kernel) on Iris Dataset:
+Support Vector Machine (linear kernel) - Mean Accuracy: 0.967, Std Dev: 0.030
+
+Support Vector Machine (linear kernel) on Pima Indians Diabetes Dataset:
+Support Vector Machine (linear kernel) - Mean Accuracy: 0.773, Std Dev: 0.022
+
+Decision Tree (max_depth=5) on Iris Dataset:
+Decision Tree (max_depth=5) - Mean Accuracy: 0.960, Std Dev: 0.033
+
+Decision Tree (max_depth=5) on Pima Indians Diabetes Dataset:
+Decision Tree (max_depth=5) - Mean Accuracy: 0.746, Std Dev: 0.034
+(1, 4) (1, 8) (1, 4) (1, 8)
+[[ 15.          34.41108716  96.73268961  54.38554014 643.71882706
+   40.31772024   1.65994321  55.        ]]
+
+--- Predictions with Arbitrary Inputs ---
+K-Nearest Neighbors (k=3) prediction on Iris sample input: [2]
+K-Nearest Neighbors (k=3) prediction on Diabetes sample input: [0]
+C:\Masters\Y1\Sem1\IAADPI\venv\Lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:690: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+Multilayer Perceptron (hidden_layer_sizes=(10,)) prediction on Iris sample input: [2]
+Multilayer Perceptron (hidden_layer_sizes=(10,)) prediction on Diabetes sample input: [0]
+Support Vector Machine (linear kernel) prediction on Iris sample input: [2]
+Support Vector Machine (linear kernel) prediction on Diabetes sample input: [1]
+Decision Tree (max_depth=5) prediction on Iris sample input: [2]
+Decision Tree (max_depth=5) prediction on Diabetes sample input: [0]
