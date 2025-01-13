@@ -1,0 +1,16 @@
+Epoch [20/200], Loss: 0.0422
+Epoch [40/200], Loss: 0.0367
+Epoch [60/200], Loss: 0.0368
+Epoch [80/200], Loss: 0.0367
+Epoch [100/200], Loss: 0.0367
+Epoch [120/200], Loss: 0.0367
+Epoch [140/200], Loss: 0.0367
+Epoch [160/200], Loss: 0.0367
+Epoch [180/200], Loss: 0.0367
+Epoch [200/200], Loss: 0.0367
+Test Loss: 0.0451
+Predicted: 32.88, Actual: 43.00
+Predicted: 32.68, Actual: 21.00
+Predicted: 32.69, Actual: 21.00
+Predicted: 33.18, Actual: 34.00
+Predicted: 32.72, Actual: 50.00
