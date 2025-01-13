@@ -1,0 +1,23 @@
+=== SVM PCA on Iris Dataset ===
+Confusion Matrix:
+ [[19  0]
+ [ 0 11]]
+Accuracy: 1.00, Precision: 1.00, Recall: 1.00, Specificity: 1.00, AuC: 1.00
+
+=== SVM PCA on Pima Dataset ===
+Confusion Matrix:
+ [[86 13]
+ [28 27]]
+Accuracy: 0.73, Precision: 0.73, Recall: 0.73, Specificity: 0.87, AuC: 0.79
+
+=== MLP PCA in Pima Indians Diabetes Dataset ===
+Confusion Matrix:
+ [[86 13]
+ [27 28]]
+Accuracy: 0.74, Precision: 0.73, Recall: 0.74, Specificity: 0.87, AuC: 0.78
+
+=== MLP PCA on Iris Dataset ===
+Confusion Matrix:
+ [[18  1]
+ [ 0 11]]
+Accuracy: 0.97, Precision: 0.97, Recall: 0.97, Specificity: 0.95, AuC: 1.00

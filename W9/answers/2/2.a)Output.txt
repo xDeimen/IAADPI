@@ -1,0 +1,5 @@
+Regression Metrics:
+Mean Absolute Error (MAE): 0.16815085976493724
+Mean Squared Error (MSE): 0.04557819994873102
+Root Mean Squared Error (RMSE): 0.21349051489171836
+R-squared (R2): 0.9282973309202085

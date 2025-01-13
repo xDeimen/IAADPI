@@ -1,0 +1,36 @@
+
+=== SVM RFE on Iris Dataset ===
+Confusion Matrix:
+ [[19  0]
+ [ 0 11]]
+Accuracy: 1.00, Precision: 1.00, Recall: 1.00, Specificity: 1.00, AuC: 1.00
+
+=== SVM RFE on Pima Dataset ===
+Confusion Matrix:
+ [[88 11]
+ [25 30]]
+Accuracy: 0.77, Precision: 0.76, Recall: 0.77, Specificity: 0.89, AuC: 0.82
+
+(.venv) C:\Masters\Y1\Sem1\IAADPI\W9>python L2.py
+
+=== SVM RFE on Iris Dataset ===
+Confusion Matrix:
+ [[19  0]
+ [ 0 11]]
+Accuracy: 1.00, Precision: 1.00, Recall: 1.00, Specificity: 1.00, AuC: 1.00
+
+
+
+=== MLP RFE on Pima Indians Diabetes Dataset ===
+Confusion Matrix:
+ [[93  6]
+ [40 15]]
+Accuracy: 0.70, Precision: 0.70, Recall: 0.70, Specificity: 0.94, AuC: 0.78
+
+=== MLP RFE on Iris Dataset ===
+c:\Masters\Y1\Sem1\IAADPI\.venv\lib\site-packages\sklearn\neural_network\_multilayer_perceptron.py:691: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (1000) reached and the optimization hasn't converged yet.
+  warnings.warn(
+Confusion Matrix:
+ [[19  0]
+ [ 0 11]]
+Accuracy: 1.00, Precision: 1.00, Recall: 1.00, Specificity: 1.00, AuC: 1.00

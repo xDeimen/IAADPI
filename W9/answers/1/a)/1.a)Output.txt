@@ -1,0 +1,23 @@
+=== SVM on Iris Dataset ===
+Confusion Matrix:
+ [[19  0]
+ [ 0 11]]
+Accuracy: 1.00, Precision: 1.00, Recall: 1.00, Specificity: 1.00, AuC: 1.00
+
+=== MLP on Iris Dataset ===
+Confusion Matrix:
+ [[19  0]
+ [ 0 11]]
+Accuracy: 1.00, Precision: 1.00, Recall: 1.00, Specificity: 1.00, AuC: 1.00
+
+=== SVM on Pima Indians Diabetes Dataset ===
+Confusion Matrix:
+ [[82 17]
+ [24 31]]
+Accuracy: 0.73, Precision: 0.73, Recall: 0.73, Specificity: 0.83, AuC: 0.81
+
+=== MLP on Pima Indians Diabetes Dataset ===
+Confusion Matrix:
+ [[77 22]
+ [18 37]]
+Accuracy: 0.74, Precision: 0.75, Recall: 0.74, Specificity: 0.78, AuC: 0.81
